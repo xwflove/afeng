@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人博客</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: white;
+        }
+        .post {
+            margin-bottom: 2rem;
+        }
+        .post h2 {
+            color: #333;
+        }
+        .post p {
+            color: #666;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>欢迎来到我的个人博客</h1>
+    </header>
+    <nav>
+        <a href="#home">首页</a>
+        <a href="#about">关于我</a>
+        <a href="#contact">联系</a>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <div class="post">
+                <h2>第一篇博客文章</h2>
+                <p>这是我的第一篇博客文章的内容。欢迎阅读！</p>
+            </div>
+            <div class="post">
+                <h2>第二篇博客文章</h2>
+                <p>这是我的第二篇博客文章的内容。感谢您的关注！</p>
+            </div>
+        </section>
+        <section id="about">
+            <h2>关于我</h2>
+            <p>我是一个喜欢写博客的人，记录生活中的点滴。</p>
+        </section>
+        <section id="contact">
+            <h2>联系我</h2>
+            <p>您可以通过邮箱与我联系：example@example.com</p>
+        </section>
+    </div>
+    <footer>
+        &copy; 2024 我的个人博客. 保留所有权利.
+    </footer>
+</body>
+</html>
